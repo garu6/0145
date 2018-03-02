@@ -58,8 +58,6 @@ public class CalendarioBasico
        if ( año == 100 ){
            año =1;
         }
-       
-        
     }
     public String getFecha(){
         String fecha;
