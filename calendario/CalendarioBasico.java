@@ -18,6 +18,7 @@ public class CalendarioBasico
     /**
      * Constructor for objects of class CalendarioBasico
      */
+   
     public CalendarioBasico()
     {
         dia =01;
@@ -59,7 +60,6 @@ public class CalendarioBasico
         }
        
         
-   
     }
     public String getFecha(){
         String fecha;
