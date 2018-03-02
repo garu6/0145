@@ -9,9 +9,9 @@ public class CalendarioBasico
 {
     private int Sinparam;
     
-    private int dia;
-    private int mes;
-    private int año;
+    private int d;
+    private int m;
+    private int a;
     private String fecha;
     
     
@@ -21,9 +21,9 @@ public class CalendarioBasico
    
     public CalendarioBasico()
     {
-        dia =01;
-        mes =01;
-        año =01;
+        d =01;
+        m =01;
+        a =01;
         
         
     }
@@ -36,32 +36,32 @@ public class CalendarioBasico
      * por ejemplo si quieres introducir el año 2016 introduce 16
      * si quieres introducir el año 2007 introduce 07 y asi sucesivamente.
      */
-   public void fijarFecha(int d, int m, int a)
+   public void fijarFecha(int dia, int mes, int ano)
    {
-       dia = d;
-       mes = m;
-       año = a;
+       d = dia;
+       m = mes;
+       a = ano;
    }
    
-   public void AvanzarDia(){
-       dia ++;
-       if (dia > 30){
-           mes++;
-           dia =1;
+   public void AvanzarFecha(){
+       d ++;
+       if (d > 30){
+           m++;
+           d =1;
         }
         
-       if (mes > 12 ){
-           año ++;
-           mes =1;
+       if (m > 12 ){
+           a ++;
+           m =1;
         }
        
-       if ( año == 100 ){
-           año =1;
+       if ( a == 100 ){
+           a =1;
         }
     }
-    public String getFecha(){
+    public String obtenerFecha(){
         String fecha;
-        fecha = dia + "-" + mes + "-" + año;
+        fecha = d + "-" + m + "-" + a;
         return fecha;
     }
     
