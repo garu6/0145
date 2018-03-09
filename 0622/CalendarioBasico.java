@@ -43,8 +43,8 @@ public class CalendarioBasico
           mes.incrementaValorAlmacenado();
         }
         
-      if (mes.getValorAlmacenado() == 1){
-          if (dia.getValorAlmacenado() == 1){
+      if (mes.getValorAlmacenado() == 1 ){
+          if (dia.getValorAlmacenado() == 1 ){
               ano.incrementaValorAlmacenado();
             }
         }
