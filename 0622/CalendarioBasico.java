@@ -8,7 +8,6 @@
 public class CalendarioBasico
 {
     
-    
     private DisplayDosCaracteres dia ;
     private DisplayDosCaracteres mes ;
     private DisplayDosCaracteres ano ;
