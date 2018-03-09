@@ -12,7 +12,6 @@ public class CalendarioBasico
     private DisplayDosCaracteres mes ;
     private DisplayDosCaracteres ano ;
     private DisplayDosCaracteres maximod;
-
     /**
      * Constructor for objects of class CalendarioBasico
      */
@@ -53,7 +52,6 @@ public class CalendarioBasico
     
     public String obtenerFecha(){
         return dia.getTextoDelDisplay() + "-" +  mes.getTextoDelDisplay() + "-" +  ano.getTextoDelDisplay();
-        
     }
 
 }
